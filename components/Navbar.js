@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/Navbar.module.scss';
 
 function Navbar() {
@@ -11,7 +12,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Accueil</a>
+                            <Link className="nav-link" href="#">Accueil</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">À propos</a>
@@ -22,7 +23,7 @@ function Navbar() {
                     </ul>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Se connecter</a>
+                            <Link className="nav-link" href="connexion">Se connecter</Link>
                         </li>
                     </ul>
                 </div>

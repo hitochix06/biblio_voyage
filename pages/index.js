@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/Navbar'
+import Connexion from '@/pages/connexion';
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Navbar> </Navbar>
-   
-     
+
+
+
     </>
   )
 }

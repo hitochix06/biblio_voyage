@@ -1,6 +1,6 @@
-import styles from '../styles/connexion.module.scss';
+import styles from '../styles/';
 
-function Connexion() {
+function Inscrire() {
  return (
   <div className="container">
    <form>
@@ -13,7 +13,6 @@ function Connexion() {
      <input type="password" id="form2Example2" class="form-control" />
      <label class="form-label" for="form2Example2">mot de passe</label>
     </div>
-
 
     <div class="row mb-4">
 
@@ -39,4 +38,4 @@ function Connexion() {
 
 
 
-export default Connexion;
+export default Inscrire;

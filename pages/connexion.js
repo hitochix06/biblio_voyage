@@ -1,32 +1,33 @@
+import Link from 'next/link';
 import styles from '../styles/connexion.module.scss';
 
 function Connexion() {
  return (
   <div className="container">
    <form>
-    <div class="form-outline mb-4 mt-5">
-     <input type="email" id="form2Example1" class="form-control" />
-     <label class="form-label" for="form2Example1">Adresse e-mail</label>
+    <div className="form-outline mb-4 mt-5">
+     <input type="email" id="form2Example1" className="form-control" />
+     <label className="form-label" for="form2Example1">Adresse e-mail</label>
     </div>
 
-    <div class="form-outline mb-4">
-     <input type="password" id="form2Example2" class="form-control" />
-     <label class="form-label" for="form2Example2">mot de passe</label>
+    <div className="form-outline mb-4">
+     <input type="password" id="form2Example2" className="form-control" />
+     <label className="form-label" for="form2Example2">mot de passe</label>
     </div>
 
 
-    <div class="row mb-4">
+    <div className="row mb-4">
 
-     <div class="col">
+     <div className="col">
 
       <a href="#!">Mot de passe oublié?</a>
      </div>
     </div>
 
-    <button type="button" class="btn btn-primary btn-block mb-4">Connexion</button>
+    <button type="button" className="btn btn-primary btn-block mb-4">Connexion</button>
 
-    <div class="text-center">
-     <p>n'êtes pas membre? <a href="#!">S'inscrire</a></p>
+    <div className="text-center">
+     <p>n'êtes pas membre? <Link href="inscrire">S'inscrire</Link></p>
     </div>
    </form>
   </div>

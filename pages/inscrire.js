@@ -1,33 +1,26 @@
-import styles from '../styles/';
 
 function Inscrire() {
  return (
   <div className="container">
-   <form>
-    <div class="form-outline mb-4 mt-5">
-     <input type="email" id="form2Example1" class="form-control" />
-     <label class="form-label" for="form2Example1">Adresse e-mail</label>
+   <form className="row g-3 mt-3">
+    <div className="col-md-6">
+     <label for="inputEmail4" className="form-label">Email</label>
+     <input type="email" className="form-control" id="inputEmail4" />
+    </div>
+    <div className="col-md-6">
+     <label for="inputPassword4" className="form-label">Password</label>
+     <input type="password" className="form-control" id="inputPassword4" />
+    </div>
+    <div className="col-12">
+     <label for="inputAddress" className="form-label">Address</label>
+     <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
     </div>
 
-    <div class="form-outline mb-4">
-     <input type="password" id="form2Example2" class="form-control" />
-     <label class="form-label" for="form2Example2">mot de passe</label>
-    </div>
-
-    <div class="row mb-4">
-
-     <div class="col">
-
-      <a href="#!">Mot de passe oublié?</a>
-     </div>
-    </div>
-
-    <button type="button" class="btn btn-primary btn-block mb-4">Connexion</button>
-
-    <div class="text-center">
-     <p>n'êtes pas membre? <a href="#!">S'inscrire</a></p>
+    <div className="col-12">
+     <button type="submit" className="btn btn-primary">S'inscrire</button>
     </div>
    </form>
+
   </div>
 
  );

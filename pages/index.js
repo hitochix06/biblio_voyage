@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bibliothèque voyage</title>
-        <meta name="description" content="Bibliothèque voyage" />
+        <title>Road trip voyage</title>
+        <meta name="description" content="Road trip voyage" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
